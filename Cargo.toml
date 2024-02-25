@@ -1,0 +1,12 @@
+[package]
+name = "switch-jdk"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+clap = "4.5.1"
+serde_json = "1.0"
+serde = { version = "1.0.197", features = ["derive"] }
+homedir = "0.2.1"
+symlink = "0.1.0"
